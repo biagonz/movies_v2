@@ -17,7 +17,7 @@ class LayoutDemoApp extends StatelessWidget {
           child: Column(
             children: [
               ImageSection(
-                image: 'images/lake.jpg',
+                image: 'assets/images/lake.jpg',
               ),
               TitleSection(
                 name: 'Oeschinen Lake Campground',
@@ -66,7 +66,7 @@ class TitleSection extends StatelessWidget {
                   padding: const EdgeInsets.only(bottom: 8),
                   child: Text(
                     name,
-                    style: TextStyle(fontWeight: FontWeight.bold),
+                    style: const TextStyle(fontWeight: FontWeight.bold),
                   ),
                 ),
                 Text(
